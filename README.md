@@ -11,7 +11,7 @@ MongoDB Configuration:
 
 The connection to MongoDB is established through app.config["MONGO_URI"], where you need to replace "your_database_name" with the name of your actual database.
 *********************
-mongodp setup
+mongodb setup
 *********************
 # Start MongoDB shell
 mongo

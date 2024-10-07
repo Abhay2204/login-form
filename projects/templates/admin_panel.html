@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Admin Panel</title>
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='styles.css') }}"
+    />
+  </head>
+  <body>
+    <div class="panel-container admin-panel">
+      <div class="panel-header">Admin Panel</div>
+      <div class="panel-content">
+        <p>Welcome, Admin! Manage your site content and settings here.</p>
+      </div>
+      <button class="panel-button">Manage Users</button>
+      <button class="panel-button">View Reports</button>
+    </div>
+  </body>
+</html>
